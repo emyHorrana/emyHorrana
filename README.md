@@ -5,8 +5,8 @@
 
 <div style="display: inline_block">
   <a href="https://github.com/emyHorrana">
-    <img heigh=200  src="https://github-readme-stats.vercel.app/api?username=emyHorrana&theme=tokyonight" />
-     <img  height="200" width="500"src="https://github-readme-stats.vercel.app/api/top-langs/?username=emyHorrana&theme=tokyonight&layout=compact&langs_count=16" />
+    <img height="200" width="500"  src="https://github-readme-stats.vercel.app/api?username=emyHorrana&theme=tokyonight" />
+     <img  height="200" width="400"src="https://github-readme-stats.vercel.app/api/top-langs/?username=emyHorrana&theme=tokyonight&layout=compact&langs_count=16" />
   </a>
 </div>
 <div style="display: inline_block"><br>

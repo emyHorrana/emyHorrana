@@ -6,7 +6,7 @@
 <div style="display: inline_block">
   <a href="https://github.com/emyHorrana">
     <img width=400  src="https://github-readme-stats.vercel.app/api?username=emyHorrana&theme=tokyonight" />
-     <img width=300 src="https://github-readme-stats.vercel.app/api/top-langs/?username=emyHorrana&layout=compact&theme=tokyonight" />
+     <img width=450 src="https://github-readme-stats.vercel.app/api/top-langs/?username=emyHorrana&layout=compact&theme=tokyonight" />
   </a>
 </div>
 <div style="display: inline_block"><br>
@@ -20,7 +20,6 @@
 <div>
   <a href="https://www.instagram.com/emily_horrana_lima/" target= "_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target= "_blank"> </a>
   <a hrerf="" target= "_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target= "_blank"> </a>
-  <a hrerf="https://discord.com/channels/@me/546024069536022528" target= "_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target= "_blank"> </a>
   <a hrerf="mailto:emilyhlrarmando@gmail.com?subject=&body=" target= "_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target= "_blank"> </a>
 </div>
 

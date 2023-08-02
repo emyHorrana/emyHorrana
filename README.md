@@ -1,6 +1,9 @@
 ### Oiê! 👋
 ##
-- 🌱 I’m currently learning programming.
+
+
+- :sparkling_heart: I'm IT student.
+- 🌱 I’m currently learning programming...
 - ⚡ Fun fact: 
 
 <div style="display: inline_block"> 

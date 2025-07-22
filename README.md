@@ -1,11 +1,13 @@
 ### Hello, World! 👋
 
-I'm Emily Horrana, an IT student passionate about software development and always curious to learn more!  
-Currently focused on Back-End development using **Java** and **C++**, and improving my logic, clean code, and OOP skills.
+I'm Emily Horrana, passionate about software development and always eager to learn more!
+Currently focused on Back-End development with Java and C++, sharpening my logic, clean code practices, and OOP skills.
 
-- 💻 IT student @ Inatel | Completed IT Technical Course at **IFSULDEMINAS**  
-- 🔍 Exploring frameworks like **Spring Boot**, version control with **Git**, and databases
-- ✨ Interested in tech that helps people and makes life better 
+- 💻 Software Engineering student @ Inatel | Completed IT Technical Course at IFSULDEMINAS
+
+- 🔍 Exploring frameworks like Spring Boot, version control with Git, and working with databases
+
+- ✨ Interested in technology that helps people and makes life better
 
 ---
 

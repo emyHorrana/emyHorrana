@@ -9,13 +9,9 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 
 ---
 
-### 📊 GitHub Insights
+## 📊 Language Statistics
 
-<div style="display: inline_block"> 
-  <a href="https://github.com/emyHorrana">
-    <img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emyHorrana&theme=tokyonight&layout=compact" />
-  </a>
-</div>
+![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
 
 ---
 ### 🧰 Tech Stack

@@ -1,9 +1,4 @@
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hello%2C+World!;I'm+Emily+Horrana" alt="Typing SVG" />
-</div>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:1F6FEB&height=120&section=header" width="100%"/>
-</div>
+
 
 I'm Emily Horrana, passionate about software development and always eager to learn more!
 Currently focused on Back-End development with Java and C++, sharpening my logic, clean code practices, and OOP skills.

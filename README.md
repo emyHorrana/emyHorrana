@@ -1,4 +1,9 @@
-### Hello, World!
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hello%2C+World!;I'm+Emily+Horrana" alt="Typing SVG" />
+</div>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:1F6FEB&height=120&section=header" width="100%"/>
+</div>
 
 I'm Emily Horrana, passionate about software development and always eager to learn more!
 Currently focused on Back-End development with Java and C++, sharpening my logic, clean code practices, and OOP skills.
@@ -12,10 +17,9 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 ## Language Statistics
 
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
-<img height="170" src="https://streak-stats.demolab.com?user=emyHorrana&theme=transparent&hide_border=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=emyHorrana&show_icons=true&theme=transparent&hide_border=true"/>
+<img height="190" src="https://streak-stats.demolab.com?user=emyHorrana&theme=transparent&hide_border=true"/>
 ---
-### 🧰 Tech Stack
+### Tech Stack
 
 <div style="display: inline_block"><br> 
    <img align="center" alt="Java" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
@@ -26,7 +30,7 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 
 ---
 
-### 📫 Connect with Me
+### Connect with Me
 
 <div>
   <a href="https://www.instagram.com/emily_hhorrana/" target="_blank">

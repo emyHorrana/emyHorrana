@@ -12,7 +12,7 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 ## 📊 Language Statistics
 
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
-
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=emyHorrana&theme=github-compact)](https://github.com/emyHorrana)
 ---
 ### 🧰 Tech Stack
 

@@ -1,18 +1,19 @@
-### Hello, World! 👋
+### Hello, World!
 
 I'm Emily Horrana, passionate about software development and always eager to learn more!
 Currently focused on Back-End development with Java and C++, sharpening my logic, clean code practices, and OOP skills.
 
-- 💻 Software Engineering student @ Inatel | Completed IT Technical Course at IFSULDEMINAS
+- Software Engineering student @ Inatel | Completed IT Technical Course at IFSULDEMINAS
 
-- ✨ Interested in technology that helps people and makes life better
+- Interested in technology that helps people and makes life better
 
 ---
 
-## 📊 Language Statistics
+## Language Statistics
 
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
 <img height="170" src="https://streak-stats.demolab.com?user=emyHorrana&theme=transparent&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=emyHorrana&show_icons=true&theme=transparent&hide_border=true"/>
 ---
 ### 🧰 Tech Stack
 

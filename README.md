@@ -6,9 +6,6 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 
 - Interested in technology that helps people and makes life better
 
----
-
-## Language Statistics
 
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
 <img height="190" src="https://streak-stats.demolab.com?user=emyHorrana&theme=transparent&hide_border=true"/>

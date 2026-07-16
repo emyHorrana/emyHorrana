@@ -8,7 +8,7 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 
 
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
-<img height="190" src="https://streak-stats.demolab.com?user=emyHorrana&theme=transparent&hide_border=true"/>
+
 ---
 ### Tech Stack
 

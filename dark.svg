@@ -27,7 +27,7 @@
     <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">  
       <rect width="4" height="1" fill="#C084FC" opacity="0.04"/>
     </pattern>  
-    
+
     <style>    
       .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 8.8px; fill: url(#asciiGrad); letter-spacing: -0.5px; }    
       .key    { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #38BDF8; font-weight: bold; }    
@@ -39,6 +39,27 @@
       .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #9CA3AF; letter-spacing: 0.5px; }    
       .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #F472B6; letter-spacing: 1px; }    
       .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #C084FC; letter-spacing: 2px; opacity: 0.85; }    
+
+      /* Transição de Boot do Terminal Fluida */
+      .fade-line {
+        opacity: 0;
+        animation: fadeInLine 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+      }
+
+      .laser-bar {
+        animation: laserScan 2.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+
+      @keyframes fadeInLine {
+        from { opacity: 0; transform: translateY(2px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes laserScan {
+        0% { transform: translateY(0px); opacity: 1; }
+        85% { opacity: 1; }
+        100% { transform: translateY(610px); opacity: 0; }
+      }
     </style>
   </defs>
 
@@ -58,7 +79,7 @@
   </g>
 
   <g transform="translate(0,38)">  
-    <rect x="14" y="10" width="430" height="530" rx="14" fill="#0F0C1B" fill-opacity="0.4" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>  
+    <rect x="14" y="10" width="420" height="520" rx="14" fill="#0F0C1B" fill-opacity="0.4" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>  
     <rect x="502" y="10" width="664" height="540" rx="14" fill="#0F0C1B" fill-opacity="0.4" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>  
     
     <text x="30" y="30" class="panel-title">VISUAL.MAP</text>  
@@ -114,25 +135,25 @@
 
     <g transform="translate(520, 50)">
       <text fill="#dbeafe">
-        <tspan x="0" y="20" class="head">emyhorrana@backend</tspan><tspan class="cc"> --------------------------------------------------</tspan>
+        <tspan x="0" y="20" class="head fade-line" style="animation-delay: 0.2s;">emyhorrana@backend</tspan><tspan class="cc fade-line" style="animation-delay: 0.25s;"> --------------------------------------------------</tspan>
         
-        <tspan x="0" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">Emily Horrana</tspan>
-        <tspan x="0" y="80" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ........................... </tspan><tspan class="value">Software Eng Student &amp; Developer</tspan>
-        <tspan x="0" y="105" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Software Eng @ Inatel</tspan>
-        <tspan x="0" y="130" class="cc">. </tspan><tspan class="key">Course</tspan><tspan class="cc">: ......................... </tspan><tspan class="value">IT Tech @ IFSULDEMINAS</tspan>
+        <tspan x="0" y="55" class="cc fade-line" style="animation-delay: 0.4s;">. </tspan><tspan class="key fade-line" style="animation-delay: 0.45s;">Subject</tspan><tspan class="cc fade-line" style="animation-delay: 0.5s;">: ........................ </tspan><tspan class="value fade-line" style="animation-delay: 0.55s;">Emily Horrana</tspan>
+        <tspan x="0" y="80" class="cc fade-line" style="animation-delay: 0.6s;">. </tspan><tspan class="key fade-line" style="animation-delay: 0.65s;">Role</tspan><tspan class="cc fade-line" style="animation-delay: 0.7s;">: ........................... </tspan><tspan class="value fade-line" style="animation-delay: 0.75s;">Software Eng Student &amp; Developer</tspan>
+        <tspan x="0" y="105" class="cc fade-line" style="animation-delay: 0.8s;">. </tspan><tspan class="key fade-line" style="animation-delay: 0.85s;">Education</tspan><tspan class="cc fade-line" style="animation-delay: 0.9s;">: ...................... </tspan><tspan class="value fade-line" style="animation-delay: 0.95s;">Software Eng @ Inatel</tspan>
+        <tspan x="0" y="130" class="cc fade-line" style="animation-delay: 1.0s;">. </tspan><tspan class="key fade-line" style="animation-delay: 1.05s;">Course</tspan><tspan class="cc fade-line" style="animation-delay: 1.1s;">: ......................... </tspan><tspan class="value fade-line" style="animation-delay: 1.15s;">IT Tech @ IFSULDEMINAS</tspan>
         
-        <tspan x="0" y="155" class="cc">. </tspan><tspan class="key">Research</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Computer Vision &amp; AI @ eHealth - Inatel</tspan>
-        <tspan x="0" y="180" class="cc">. </tspan><tspan class="key">Volunteer</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Programming Educator @ cas@viva - Inatel</tspan>
-        <tspan x="0" y="205" class="cc">. </tspan><tspan class="key">Goal</tspan><tspan class="cc">: ........................... </tspan><tspan class="value">Tech that makes life better</tspan>
+        <tspan x="0" y="155" class="cc fade-line" style="animation-delay: 1.2s;">. </tspan><tspan class="key fade-line" style="animation-delay: 1.25s;">Research</tspan><tspan class="cc fade-line" style="animation-delay: 1.3s;">: ....................... </tspan><tspan class="value fade-line" style="animation-delay: 1.35s;">Computer Vision &amp; AI @ eHealth - Inatel</tspan>
+        <tspan x="0" y="180" class="cc fade-line" style="animation-delay: 1.4s;">. </tspan><tspan class="key fade-line" style="animation-delay: 1.45s;">Volunteer</tspan><tspan class="cc fade-line" style="animation-delay: 1.5s;">: ...................... </tspan><tspan class="value fade-line" style="animation-delay: 1.55s;">Programming Educator @ cas@viva - Inatel</tspan>
+        <tspan x="0" y="205" class="cc fade-line" style="animation-delay: 1.6s;">. </tspan><tspan class="key fade-line" style="animation-delay: 1.65s;">Goal</tspan><tspan class="cc fade-line" style="animation-delay: 1.7s;">: ........................... </tspan><tspan class="value fade-line" style="animation-delay: 1.75s;">Tech that makes life better</tspan>
         
-        <tspan x="0" y="235" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Languages</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Python, Java, C++</tspan>
-        <tspan x="0" y="260" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Database</tspan><tspan class="cc">: .................. </tspan><tspan class="value">MySQL</tspan>
-        <tspan x="0" y="285" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Tools</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Git, GitHub, VS Code</tspan>
+        <tspan x="0" y="235" class="cc fade-line" style="animation-delay: 1.8s;">. </tspan><tspan class="key fade-line" style="animation-delay: 1.85s;">Core</tspan><tspan class="cc fade-line" style="animation-delay: 1.85s;">.</tspan><tspan class="key fade-line" style="animation-delay: 1.9s;">Languages</tspan><tspan class="cc fade-line" style="animation-delay: 1.95s;">: ................. </tspan><tspan class="value fade-line" style="animation-delay: 2.0s;">Python, Java, C++</tspan>
+        <tspan x="0" y="260" class="cc fade-line" style="animation-delay: 2.05s;">. </tspan><tspan class="key fade-line" style="animation-delay: 2.1s;">Core</tspan><tspan class="cc fade-line" style="animation-delay: 2.1s;">.</tspan><tspan class="key fade-line" style="animation-delay: 2.15s;">Database</tspan><tspan class="cc fade-line" style="animation-delay: 2.2s;">: .................. </tspan><tspan class="value fade-line" style="animation-delay: 2.25s;">MySQL</tspan>
+        <tspan x="0" y="285" class="cc fade-line" style="animation-delay: 2.3s;">. </tspan><tspan class="key fade-line" style="animation-delay: 2.35s;">Core</tspan><tspan class="cc fade-line" style="animation-delay: 2.35s;">.</tspan><tspan class="key fade-line" style="animation-delay: 2.4s;">Tools</tspan><tspan class="cc fade-line" style="animation-delay: 2.45s;">: ..................... </tspan><tspan class="value fade-line" style="animation-delay: 2.5s;">Git, GitHub, VS Code</tspan>
         
-        <tspan x="0" y="325" class="accent">- Contact &amp; Social</tspan><tspan class="cc"> ---------------------------------------------------</tspan>
-        <tspan x="0" y="355" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................... </tspan><tspan class="value">linkedin.com/in/emily-horrana</tspan>
-        <tspan x="0" y="380" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Instagram</tspan><tspan class="cc">: .................. </tspan><tspan class="value">instagram.com/emily_hhorrana</tspan>
-        <tspan x="0" y="405" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Email</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">emilyhlrarmando@gmail.com</tspan>      
+        <tspan x="0" y="325" class="accent fade-line" style="animation-delay: 2.55s;">- Contact &amp; Social</tspan><tspan class="cc fade-line" style="animation-delay: 2.6s;"> ---------------------------------------------------</tspan>
+        <tspan x="0" y="355" class="cc fade-line" style="animation-delay: 2.65s;">. </tspan><tspan class="key fade-line" style="animation-delay: 2.7s;">Grid</tspan><tspan class="cc fade-line" style="animation-delay: 2.7s;">.</tspan><tspan class="key fade-line" style="animation-delay: 2.75s;">LinkedIn</tspan><tspan class="cc fade-line" style="animation-delay: 2.8s;">: ................... </tspan><tspan class="value fade-line" style="animation-delay: 2.85s;">linkedin.com/in/emily-horrana</tspan>
+        <tspan x="0" y="380" class="cc fade-line" style="animation-delay: 2.9s;">. </tspan><tspan class="key fade-line" style="animation-delay: 2.95s;">Grid</tspan><tspan class="cc fade-line" style="animation-delay: 2.95s;">.</tspan><tspan class="key fade-line" style="animation-delay: 3.0s;">Instagram</tspan><tspan class="cc fade-line" style="animation-delay: 3.05s;">: .................. </tspan><tspan class="value fade-line" style="animation-delay: 3.1s;">instagram.com/emily_hhorrana</tspan>
+        <tspan x="0" y="405" class="cc fade-line" style="animation-delay: 3.15s;">. </tspan><tspan class="key fade-line" style="animation-delay: 3.2s;">Grid</tspan><tspan class="cc fade-line" style="animation-delay: 3.2s;">.</tspan><tspan class="key fade-line" style="animation-delay: 3.25s;">Email</tspan><tspan class="cc fade-line" style="animation-delay: 3.3s;">: ...................... </tspan><tspan class="value fade-line" style="animation-delay: 3.35s;">emilyhlrarmando@gmail.com</tspan>      
       </text>
     </g>
   </g>
@@ -143,4 +164,5 @@
   <rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.8">  
     <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
   </rect>
+
 </svg>

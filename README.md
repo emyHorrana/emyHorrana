@@ -1,4 +1,9 @@
 
+<div align="center">
+  <img src="./dark.svg" alt="Emily Horrana Banner" width="100%" />
+</div>
+
+<br>
 I'm Emily Horrana, passionate about software development and always eager to learn more!
 Currently focused on Back-End development with Java and C++, sharpening my logic, clean code practices, and OOP skills.
 
@@ -8,18 +13,6 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 
 
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=emyHorrana&theme=tokyonight)
-
----
-### Tech Stack
-
-<div style="display: inline_block"><br> 
-   <img align="center" alt="Java" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
-  <img align="center" alt="C++" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-  <img align="center" alt="MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-</div>
-
----
 
 ### Connect with Me
 

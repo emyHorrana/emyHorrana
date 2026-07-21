@@ -17,9 +17,6 @@ Currently focused on Back-End development with Java and C++, sharpening my logic
 ### Connect with Me
 
 <div>
-  <a href="https://www.instagram.com/emily_hhorrana/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
   <a href="https://www.linkedin.com/in/emily-horrana/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>

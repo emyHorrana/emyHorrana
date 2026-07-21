@@ -5,7 +5,7 @@
 
 <br>
 I'm Emily Horrana, passionate about software development and always eager to learn more!
-Currently focused on Back-End development with Java and C++, sharpening my logic, clean code practices, and OOP skills.
+Currently focused on Back-End development with Java and C++, sharpening my logic and OOP skills.
 
 - Software Engineering student @ Inatel | Completed IT Technical Course at IFSULDEMINAS
 

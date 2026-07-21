@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
+  <defs>  
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">    
+      <stop offset="0%" stop-color="#A855F7">      
+        <animate attributeName="stop-color" values="#A855F7;#EC4899;#3B82F6;#A855F7" dur="8s" repeatCount="indefinite"/>    
+      </stop>    
+      <stop offset="100%" stop-color="#3B82F6">      
+        <animate attributeName="stop-color" values="#3B82F6;#A855F7;#EC4899;#3B82F6" dur="8s" repeatCount="indefinite"/>    
+      </stop>  
+    </linearGradient>  
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">    
+      <stop offset="0%" stop-color="#C084FC"/>    
+      <stop offset="50%" stop-color="#38BDF8"/>    
+      <stop offset="100%" stop-color="#F472B6"/>  
+    </linearGradient>  
+    <radialGradient id="bgGlow" cx="30%" cy="20%" r="80%">    
+      <stop offset="0%" stop-color="#0F0C1B"/>    
+      <stop offset="100%" stop-color="#05030A"/>  
+    </radialGradient>  
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">  
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0"/>  
+      <stop offset="45%" stop-color="#C084FC" stop-opacity="0.05"/>  
+      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.5"/>  
+      <stop offset="55%" stop-color="#C084FC" stop-opacity="0.05"/>  
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>  
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">  
+      <rect width="4" height="1" fill="#C084FC" opacity="0.04"/>
+    </pattern>  
+    
+    <style>    
+      .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 8.8px; fill: url(#asciiGrad); letter-spacing: -0.5px; }    
+      .key    { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #38BDF8; font-weight: bold; }    
+      .value  { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #F3F4F6; }    
+      .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #4B5563; }    
+      .head   { font-family: 'Courier New', Consolas, monospace; font-size: 16px; fill: #C084FC; font-weight: bold; }    
+      .accent { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #F472B6; font-weight: bold; }    
+      text, tspan { white-space: pre; }        
+      .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #9CA3AF; letter-spacing: 0.5px; }    
+      .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #F472B6; letter-spacing: 1px; }    
+      .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #C084FC; letter-spacing: 2px; opacity: 0.85; }    
+    </style>
+  </defs>
+
+  <rect width="1180" height="610" rx="18" fill="url(#bgGlow)"/>
+  <rect width="1180" height="610" rx="18" fill="url(#scanlines)"/>
+
+  <g id="titlebar">  
+    <rect x="3" y="3" width="1174" height="34" rx="16" fill="#0F0C1B" fill-opacity="0.9"/>  
+    <circle cx="24" cy="20" r="5" fill="#EF4444"/>  
+    <circle cx="42" cy="20" r="5" fill="#F59E0B"/>  
+    <circle cx="60" cy="20" r="5" fill="#10B981"/>  
+    <text x="590" y="25" text-anchor="middle" class="term-label">emily@inatel-dev ~ % ./profile.sh --live</text>  
+    <circle cx="1122" cy="20" r="4" fill="#F472B6">    
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>  
+    </circle>  
+    <text x="1132" y="24" class="scan-label">ONLINE</text>
+  </g>
+
+  <g transform="translate(0,38)">  
+    <rect x="14" y="10" width="430" height="530" rx="14" fill="#0F0C1B" fill-opacity="0.4" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>  
+    <rect x="502" y="10" width="664" height="540" rx="14" fill="#0F0C1B" fill-opacity="0.4" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>  
+    
+    <text x="30" y="30" class="panel-title">VISUAL.MAP</text>  
+    <text x="520" y="30" class="panel-title">SYSTEM.INFO</text>
+
+    <text class="ascii">
+      <tspan x="30" y="62">::cc:::;:cllcccccllcccccclllccccllccclllllllloolllllooooolollllloooolllloollllll</tspan>
+      <tspan x="30" y="72">::cc:::;:cllcccccllcccccllllcclllcclcclllllloolllllllooooloollllooolllllllllllll</tspan>
+      <tspan x="30" y="82">;:c::::::ccccccclllcccccclllccllc:;,,;,''',;;:lllooloooollolllllooolllllllllllll</tspan>
+      <tspan x="30" y="92">;:cc:cc::cllccccclllcccclllccc:;'.............',,;cloooolllllcllooollllllllcllll</tspan>
+      <tspan x="30" y="102">:ccccccccclllcccllllcccclllc;'........    ....''...,cooollllllllooolllllllllllll</tspan>
+      <tspan x="30" y="112">dddddddddddddoooooooolllllc,..  .     ....':ccl:'....:lolooollooooooooooollllooo</tspan>
+      <tspan x="30" y="122">NNNNNNNNNNNXXXXXXXXXKKKK0o.....     ..,cclokOkxdc,....lkOOOOOkOOOkkkkkkkkxxxxxxx</tspan>
+      <tspan x="30" y="132">MMWWWWWWMMMMMMMMMMMWWWWNx,..       .':llldxkkkkxdo:'..:KWMMMMWWMWWWWWWWWWWWWWWWW</tspan>
+      <tspan x="30" y="142">NNNNNNNNNWWWNNNNNNNNNNXd'..      ..,lodddxxxkxxxxddc...oXWWWWWWWWWWWWWWWWWWWWWWW</tspan>
+      <tspan x="30" y="152">XXXXXXXXXXXXXXXXXKKKX0l..   ..  ..',;;:c:::coddxdddo;. 'dKXXXXXXXXXXXXXXXXXXXXXX</tspan>
+      <tspan x="30" y="162">KKKKKKKKKKKKKKKKK00K0o...      .....',;;,,'',clollloc. .c0KKKKKKKKKKKKKKKKKKKKKK</tspan>
+      <tspan x="30" y="172">0000000000000000O000x,..      .':,:l;''',',,;cc:;,,,;. .;kK000000000000000000000</tspan>
+      <tspan x="30" y="182">00000000OOOOOOOOOOOk:...     ..;c:oOxo:::;;;,',,'','..  'dO000O0OOOOOOOOOOOOOOOO</tspan>
+      <tspan x="30" y="192">OOOOOOOOOOOOOOOOOOOo,.       .':lloOOkxolol;,:,.''''.  ..lOOOOOOOOOOOOOOOOOOkkkk</tspan>
+      <tspan x="30" y="202">kkkkkkkkOOOOkkkOOOxl'.       .;cclcclodoll::d0dccc::'....ckOOOOOkOOkkkkkkkkkkkkk</tspan>
+      <tspan x="30" y="212">kkkkkkkkkkkkkkkkkxd:.        .;clolc:;::;::cloooodoo;...'oOOkkkkkkkkkkkkkxxxxxxx</tspan>
+      <tspan x="30" y="222">xxxxxxxxxxxxkkkkxdc...      .':cllc;,;:::;;::;;:cccl,...ckkkkkkkkkxxxxxxxxxxxxxx</tspan>
+      <tspan x="30" y="232">xxxxxxxxxkkkkkkkkl'..        .,:clooc;,:cllll:;:::cc,. ..:xkkkkkkxxxxxxxxxxxxxxx</tspan>
+      <tspan x="30" y="242">xxxxxxxkkkkkkkkkx:..        .':clloolc:cloool,,cc:'.  .':xkkkkkkkkxxxxxxxxxxxxxx</tspan>
+      <tspan x="30" y="252">xxxxxxxxxxxkkkkx:..         ..,;cllloolllc:::clo:.    .;dkkkkkkkkkkxxkkxxxxxxxxx</tspan>
+      <tspan x="30" y="262">xxxxxxxxxxkxkkxo,..         ..',;:cloodddoooooc,.     .,okkkkkkkxxxxxxxxxxxxxxxd</tspan>
+      <tspan x="30" y="272">xxxxxxxxxxxxkko:'..        ..',,,;:clloodool:'.        .:dkkkkkkxxxxxxxxdddddddd</tspan>
+      <tspan x="30" y="282">xxxxxxxxxxxxxxd:..        ..',;;;;;::::::;,..         .;dxxxkkxxxxxxxxxxxddddddd</tspan>
+      <tspan x="30" y="292">xxxxxxxxxxxxxo:'..       ...';::::::::;,'''..        ..';:clodxxxxxxxxxxxddddddd</tspan>
+      <tspan x="30" y="302">xxxxxxxxxxxxdl'...      ....,;:clcccc:::;::'.         .......,;ldxxxxxdxdddddddd</tspan>
+      <tspan x="30" y="312">xxxxxxxxxddlc,...        ..',;:cllllcllllc:,.         ..'.......,cddxxdddddddddo</tspan>
+      <tspan x="30" y="322">xxddxxdol:,'....        .',,;::cccllooddolc:.         ............:ddddddddddooo</tspan>
+      <tspan x="30" y="332">xxdddo:,........       .':ccccccloodddddddo:.          ............cdddddddooooo</tspan>
+      <tspan x="30" y="342">ddddl,...........       'cloooddddxxdddxxdo:'.         ............'lddddooooooo</tspan>
+      <tspan x="30" y="352">dddl,.. ........        'ldddddxxxxxxxxxxdo:'.         ......  .....;odoooooooll</tspan>
+      <tspan x="30" y="362">ooo:.    .....          .cddddxxxxxxxxxxxdo:..         ...... .......:oooooollll</tspan>
+      <tspan x="30" y="372">ooo:.    ......        .;ooddddddxxxxxxxddo:..         ..  .........':ldxkxdolll</tspan>
+      <tspan x="30" y="382">ccc;.    ...            'lddddddddxxxxddddl;..        ...  .... ...,cdxxkOkkxlll</tspan>
+      <tspan x="30" y="392">ccc,.                  .:ddxddddddxxxxdddoc,..          ..    ..,cdkkxxddkkkdlll</tspan>
+      <tspan x="30" y="402">lll;.                   ,dxxdxxxxxxxxddool:;'.          ..    .,dOkkxxxddkOkdlll</tspan>
+      <tspan x="30" y="412">:::'. ...               .;dxxxxxxxxxdlcclc:;'.        .. .    .'okkxxxddkOOOocll</tspan>
+      <tspan x="30" y="422">:;;,'....                .,cxkkxkxxdo:;,;,'.                  ' lxxxxdddxO0Ooclc</tspan>
+      <tspan x="30" y="432">ccccll;'...                .',;;;,,'...                        .:dxxxdoox00Ooccc</tspan>
+      <tspan x="30" y="442">;:::cc;'......              .                         ....     .,oxxxdook00Ooccc</tspan>
+      <tspan x="30" y="452">;;;;;;,..','..           ......                       .        ..lxxddook00Ooccc</tspan>
+      <tspan x="30" y="462">:;;:;;,'';;;;..          ..........   .. ..   .                ..cxxddookKKOl:cc</tspan>
+      <tspan x="30" y="472">::::;:c:,;;::;..          ....................                  .:dxddookKKOo:cc</tspan>
+      <tspan x="30" y="482">;;;;;cxo;,,;::;'..            ..                               ..;odddookKX0o:::</tspan>
+      <tspan x="30" y="492">oooooxOko::ccc:,.....                                          ..:ddddookKK0o:::</tspan>
+      <tspan x="30" y="502">kkOKKK00000OOkkxdoooc:cc:;;;,'......                           ...cddddoodoooc::</tspan>
+    </text>
+
+    <g transform="translate(520, 50)">
+      <text fill="#dbeafe">
+        <tspan x="0" y="20" class="head">emyhorrana@backend</tspan><tspan class="cc"> --------------------------------------------------</tspan>
+        
+        <tspan x="0" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">Emily Horrana</tspan>
+        <tspan x="0" y="80" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ........................... </tspan><tspan class="value">Software Eng Student &amp; Developer</tspan>
+        <tspan x="0" y="105" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Software Eng @ Inatel</tspan>
+        <tspan x="0" y="130" class="cc">. </tspan><tspan class="key">Course</tspan><tspan class="cc">: ......................... </tspan><tspan class="value">IT Tech @ IFSULDEMINAS</tspan>
+        
+        <tspan x="0" y="155" class="cc">. </tspan><tspan class="key">Research</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Computer Vision &amp; AI @ eHealth - Inatel</tspan>
+        <tspan x="0" y="180" class="cc">. </tspan><tspan class="key">Volunteer</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">Programming Educator @ cas@viva - Inatel</tspan>
+        <tspan x="0" y="205" class="cc">. </tspan><tspan class="key">Goal</tspan><tspan class="cc">: ........................... </tspan><tspan class="value">Tech that makes life better</tspan>
+        
+        <tspan x="0" y="235" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Languages</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Python, Java, C++</tspan>
+        <tspan x="0" y="260" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Database</tspan><tspan class="cc">: .................. </tspan><tspan class="value">MySQL</tspan>
+        <tspan x="0" y="285" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Tools</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Git, GitHub, VS Code</tspan>
+        
+        <tspan x="0" y="325" class="accent">- Contact &amp; Social</tspan><tspan class="cc"> ---------------------------------------------------</tspan>
+        <tspan x="0" y="355" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................... </tspan><tspan class="value">linkedin.com/in/emily-horrana</tspan>
+        <tspan x="0" y="380" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Instagram</tspan><tspan class="cc">: .................. </tspan><tspan class="value">instagram.com/emily_hhorrana</tspan>
+        <tspan x="0" y="405" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Email</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">emilyhlrarmando@gmail.com</tspan>      
+      </text>
+    </g>
+  </g>
+
+  <rect x="0" y="-70" width="1180" height="70" fill="url(#scanGrad)" opacity="0.7" style="mix-blend-mode:screen">  
+    <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.8">  
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
